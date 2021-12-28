@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import testJson from "../json/test.json";
+import { Button } from "@mui/material";
 
 export default function Home() {
-  const { tex } = testJson;
   return (
-    <div>
-      <Link to={"/test"}>Link</Link>
-      {tex}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-evenly",
+        alignItems: "center",
+      }}
+    >
+      <Link to={"/cattheory"}>
+        <Button variant="outlined">Category Theory</Button>
+      </Link>
     </div>
   );
 }

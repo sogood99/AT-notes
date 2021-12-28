@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Latex from "./latex";
+import CatTheory from "./pages/cattheory";
 import Home from "./pages/home";
 
 function App() {
@@ -11,6 +12,14 @@ function App() {
           element={
             <Latex>
               <Home />
+            </Latex>
+          }
+        />
+        <Route
+          path="cattheory"
+          element={
+            <Latex>
+              <CatTheory />
             </Latex>
           }
         />
