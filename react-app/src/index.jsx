@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./app";
+import Latex from "./latex";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello World</div>
+    <Latex>
+      <App />
+    </Latex>
   </React.StrictMode>,
   document.getElementById("root")
 );
