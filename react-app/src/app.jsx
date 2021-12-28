@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Latex from "./latex";
 import CatTheory from "./pages/cattheory";
 import Home from "./pages/home";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -25,7 +25,7 @@ function App() {
         />
         <Route path="*" element={<div>404</div>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default App;
