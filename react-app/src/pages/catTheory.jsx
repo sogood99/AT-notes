@@ -7,7 +7,7 @@ export default function CatTheory() {
   const catDefTex = CatDef.tex;
   return (
     <div>
-      <Typography variant="h3" style={{ marginBottom: "20px" }}>
+      <Typography variant="h4" style={{ marginBottom: "20px" }}>
         Category Theory
       </Typography>
       <div className="tex">{catDefTex}</div>

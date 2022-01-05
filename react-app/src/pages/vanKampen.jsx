@@ -10,7 +10,7 @@ export default function VanKampen() {
   const vanKampenExplain = vanKampenExplainJson.tex;
   return (
     <div>
-      <Typography variant="h3" style={{ marginBottom: "20px" }}>
+      <Typography variant="h4" style={{ marginBottom: "20px" }}>
         Van Kampen Theorem and Applications
       </Typography>
       <div className="tex">{vanKampen}</div>

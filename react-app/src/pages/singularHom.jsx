@@ -7,7 +7,7 @@ export default function SingularHom() {
   const singularHomDef = singularHomDefJson.tex;
   return (
     <div>
-      <Typography variant="h3" style={{ marginBottom: "20px" }}>
+      <Typography variant="h4" style={{ marginBottom: "20px" }}>
         Singular Homology
       </Typography>
       <div className="tex">{singularHomDef}</div>
