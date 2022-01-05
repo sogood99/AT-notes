@@ -8,7 +8,7 @@ Some notes for topology. Plan on covering:
 - [ ] Covering Spaces
 - [ ] Singular Homology
 - [ ] Homology with Coefficients
-- [ ] Cellular Homology
+- [ ] Degrees and Cellular Homology
 - [ ] Simplicial Homology
 - [ ] Simplicial Approximation (Lefschetz Fixed Point Theorem)
 - [ ] Mayer Vietoris Sequence
