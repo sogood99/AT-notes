@@ -22,4 +22,4 @@ Convert tex files in `./tex` to json:
 node texToJson.js ./tex/ ./react-app/src/json/
 ```
 
-then use react stuff (`npm start`, `npm build`).
+then use react stuff (`npm start`, `npm build`). Use `npm deploy` to deploy to GitHub pages.

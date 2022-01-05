@@ -1,7 +1,9 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import Latex from "./latex";
-import CatTheory from "./pages/cattheory";
+import CatTheory from "./pages/catTheory";
 import Home from "./pages/home";
+import SingularHom from "./pages/singularHom";
+import VanKampen from "./pages/vanKampen";
 
 function App() {
   return (
@@ -20,6 +22,22 @@ function App() {
           element={
             <Latex>
               <CatTheory />
+            </Latex>
+          }
+        />
+        <Route
+          path="vankampen"
+          element={
+            <Latex>
+              <VanKampen />
+            </Latex>
+          }
+        />
+        <Route
+          path="singularhom"
+          element={
+            <Latex>
+              <SingularHom />
             </Latex>
           }
         />
