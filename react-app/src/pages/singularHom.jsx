@@ -10,7 +10,7 @@ export default function SingularHom() {
       <Typography variant="h4" style={{ marginBottom: "20px" }}>
         Singular Homology
       </Typography>
-      <div className="tex">{singularHomDef}</div>
+      <div className="definition">(Singular Complex) {singularHomDef}</div>
       <Link to="/">
         <Button>Back</Button>
       </Link>

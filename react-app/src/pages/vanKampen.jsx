@@ -13,7 +13,7 @@ export default function VanKampen() {
       <Typography variant="h4" style={{ marginBottom: "20px" }}>
         Van Kampen Theorem and Applications
       </Typography>
-      <div className="tex">{vanKampen}</div>
+      <div className="theorem"> (Van Kampen's Theorem) {vanKampen}</div>
       <div className="tex">{vanKampenExplain}</div>
       <Link to="/">
         <Button>Back</Button>
