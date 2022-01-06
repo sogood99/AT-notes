@@ -13,6 +13,7 @@ Some notes for topology. Plan on covering:
 - [ ] Simplicial Approximation (Lefschetz Fixed Point Theorem)
 - [ ] Mayer Vietoris Sequence
 - [ ] Axioms of Homology
+- [ ] Cohomology ?
 
 ## Build
 
