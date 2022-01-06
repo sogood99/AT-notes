@@ -51,6 +51,14 @@ export default function CatTheory() {
             If we relax the one-object category group (that all morphisms don't
             have to be isomorphism), we obtain the monad category.
           </li>
+          <li>
+            <span className="cat">Set</span> the category of sets with morphism
+            the functions between them.
+          </li>
+          <li>
+            <span className="cat">Top</span> the category of topological spaces
+            with morphisms the continuous maps.
+          </li>
         </ul>
       </div>
       <div className="definition">
@@ -61,6 +69,12 @@ export default function CatTheory() {
             A mapping of $f\in \Hom(A,B)$ in $\C$, to $F(f) \in \Hom(F(A),F(B))$
             with the property that $F(f\circ g) = F(f)\circ F(g)$.
           </li>
+        </ul>
+      </div>
+      <div>
+        Examples of functors:
+        <ul>
+          <li></li>
         </ul>
       </div>
       <Link to="/" style={{ marginTop: "20px" }}>

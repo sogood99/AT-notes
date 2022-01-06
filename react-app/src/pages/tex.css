@@ -53,3 +53,8 @@
   font-weight: bold;
   font-style: normal;
 }
+
+.cat {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+}
