@@ -14,9 +14,9 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script>
       MathJax = {
-        loader: { load: ["[tex]/amscd"] },
+        loader: { load: ["[tex]/amscd", "[tex]/newcommand"] },
         tex: {
-          packages: { "[+]": ["amscd"] },
+          packages: { "[+]": ["amscd", "newcommand", "def"] },
           inlineMath: [
             ["$", "$"],
             ["\\(", "\\)"],
@@ -30,7 +30,7 @@
           },
         },
         chtml: {
-          scale: 1.2,
+          scale: 1.05,
         },
       };
     </script>

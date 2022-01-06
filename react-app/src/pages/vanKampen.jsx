@@ -17,7 +17,7 @@ export default function VanKampen() {
       <div className="tex">
         {vanKampenExplain} When the there are exactly two open covers then the
         path connectedness is vacuously satisfied and it yields this nice
-        commutative diagram from
+        commutative diagram from{" "}
         <a
           target="_blank"
           rel="noreferrer"
