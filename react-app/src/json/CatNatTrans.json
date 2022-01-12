@@ -1,0 +1,1 @@
+{"tex":"\\begin{CD}\n    F(A) @>F(f)>> F(B)\\\\\n    @V{\\alpha_A}VV @VV{\\alpha_B}V\\\\\n    G(A) @>G(f)>> G(B)\n\\end{CD}"}

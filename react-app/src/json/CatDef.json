@@ -1,1 +1,1 @@
-{"tex":"$\\DeclareMathOperator{\\Obj}{Obj}\\DeclareMathOperator{\\Hom}{Hom}\\DeclareMathOperator{\\id}{id}\\newcommand{\\C}{\\mathcal C}$"}
+{"tex":"$\\DeclareMathOperator{\\Obj}{Obj}\\DeclareMathOperator{\\Hom}{Hom}\\DeclareMathOperator{\\id}{id}\\newcommand{\\C}{\\mathcal C}\\newcommand{\\D}{\\mathcal D}\\newcommand{\\op}[1]{#1^{op}}$"}
